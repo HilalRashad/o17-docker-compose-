@@ -7,7 +7,7 @@ Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https
 ``` bash
 curl -s https://raw.githubusercontent.com/minhng92/odoo-17-docker-compose/master/run.sh | sudo bash -s odoo-one 10017 20017
 ```
-and/or run the following to set up another Odoo instance @ `localhost:11017` (default master password: `minhng.info`):
+and/or run the following to set up another Odoo instance @ `localhost:11017` (default master password: `Default`):
 
 ``` bash
 curl -s https://raw.githubusercontent.com/minhng92/odoo-17-docker-compose/master/run.sh | sudo bash -s odoo-two 11017 21017
