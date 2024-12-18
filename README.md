@@ -2,7 +2,7 @@
 
 ## Quick Installation
 
-Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run the following to set up first Odoo instance @ `localhost:10017` (default master password: `minhng.info`):
+Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run the following to set up first Odoo instance @ `localhost:10017` (default master password: `odoo17@2023`):
 
 ``` bash
 curl -s https://raw.githubusercontent.com/HilalRashad/o17-docker-compose-/refs/heads/main/run.sh | sudo bash -s odoo-one 10017 20017
