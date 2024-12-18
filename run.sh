@@ -14,6 +14,6 @@ sudo sysctl -p
 sed -i 's/10017/'$PORT'/g' $DESTINATION/Docker-Compose-Enhanced.yaml
 sed -i 's/20017/'$CHAT'/g' $DESTINATION/Docker-Compose-Enhanced.yaml
 # run Odoo
-docker-compose -f $DESTINATION/docker-compose.yml up -d
+docker-compose -f $DESTINATION/Docker-Compose-Enhanced.yaml up -d
 
 echo 'Started Odoo @ http://localhost:'$PORT' | Master Password: odoo17@2023 | Live chat port: '$CHAT
